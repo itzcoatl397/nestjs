@@ -20,7 +20,6 @@ export class CarsController {
         return this.carsService.findOneById(id);
     }
 
-
     @Post('')
 
     createCar(@Body() createCardDto: CreateCarDto) {
